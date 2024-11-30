@@ -1,0 +1,145 @@
+.login{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 245px;
+    max-width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: all 0.3s;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 8px 0;
+    margin: 8px 0;
+    color: #C92127;
+    border: 1px solid #C92127;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px !important; /* Thay đổi kích thước chiều rộng */
+  height: 30px !important; /* Thay đổi kích thước chiều cao */
+  background-size: 20px !important; /* Điều chỉnh kích thước của biểu tượng */
+  background-color: #428dde;
+  border-radius: 50%;
+}
+.tudongchat-com.svelte-3x3xt4 {
+  height: 544px !important;
+}
+/* Để nút nhỏ hơn nữa, bạn có thể thay đổi các giá trị dưới đây */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white;
+  font-size: 18px !important; /* Điều chỉnh kích thước biểu tượng mũi tên */
+}
+.cancel{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 245px;
+    max-width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: all 0.3s;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 8px 0;
+    margin: 8px 0;
+    background: linear-gradient(90deg, rgba(224, 224, 224, 1) 0%, rgba(224, 224, 224, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e0e0", endColorstr="#e0e0e0", GradientType=1);
+    border: none;
+    color: #636363;
+}
+.bg-backgound
+{
+    background: url("https://cdn0.fahasa.com/media/fahasa_web_image/flash_sale_background_image.jpg") no-repeat center center;
+    background-color: #ff6c6b;
+    width: 100%;
+    object-fit: contain;
+    padding: 30px 0;
+}
+.product{
+    width: 236.4px;
+    background-color: white;
+    -webkit-border-radius: 8px;
+    height: auto;
+    margin: 2px 0px;
+    font-size: .8rem;
+    border: 1px solid #f1f1f1;
+    height: 340px;
+}
+.product:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.sale-price{
+    text-decoration: line-through;
+color: #888888;
+}
+.bg-buy
+{
+  background-color: #C92127;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 1px 0;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.price-sale{
+    text-decoration: line-through;
+color: #575757;
+}
+.salee{
+    font-weight: 600;
+    background-color: #C92127;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+    width: fit-content;
+  }
+  .blog-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .blog-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .text-muted {
+    color: #6c757d; /* Bootstrap muted text color */
+  }
+  
